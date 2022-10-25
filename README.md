@@ -28,6 +28,8 @@ Y finalmente el comando "php artisan serve"
 Para hacer un deploy en la nube de este proyecto, se utilizó Heroku que es gratuito
 Para más información de uso, acceder a: https://id.heroku.com/login
 
+Link de la aplicación: http://morning-springs-00644.herokuapp.com/login
+
 # Créditos
 Nombre: Andrea Moreano
 
