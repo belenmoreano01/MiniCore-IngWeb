@@ -23,19 +23,7 @@
                               </div>
                         </div>
                         
-                        <div class="p-1" style="display: flex; justify-content: space-between; align-items: center;">
-
-                            <span id="card_title">
-                                {{ __('Pase') }}
-                            </span>
-
-                             <div class="float-right">
-                                <a href="{{ route('pases.create') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
-                                  {{ __('Create New') }}
-                                </a>
-                              </div>
-                        </div>
-                    </div>
+                    
                     @if ($message = Session::get('success'))
                         <div class="alert alert-success">
                             <p>{{ $message }}</p>
